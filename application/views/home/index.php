@@ -29,12 +29,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" />
   <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/font-awesome.min.css" />
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min.css" />
-<<<<<<< HEAD
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min2.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich" />
+  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min3.css" />
   <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/simple-line-icons.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-=======
->>>>>>> 7aee980f2ca99d6a6dfbea003f3c791ee8a35621
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>/assets/home/assets/css/style.css" rel="stylesheet">
@@ -375,200 +374,58 @@
       </div><!-- End About Section -->
 
 
-      <!-- ======= Pelayana Section ======= -->
-      <div id="blog" class="blog-area">
-        <div class="blog-inner area-padding">
-          <div class="blog-overly"></div>
-          <div class="container ">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="section-headline text-center">
-                  <h2>LAYANAN TERPOPULER KAMI</h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <!-- Start Left Blog -->
-              <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <img src="<?= base_url(); ?>/assets/home/assets/img/blog/sakit_kepala.jpg" alt="">
-                  </div>
-                  <div class="blog-meta">
-
-                  </div>
-                  <div class="blog-text text-center">
-                    <h4>
-                      NYERI KEPALA
-                    </h4>
-                    <p>
-                      Sakit kepala atau nyeri kepala adalah kondisi ketika seseorang merasakan rasa sakit, tekanan, atau ketegangan di sekitar kepala
-                    </p>
-                  </div>
-                  <div class="text-center"><a href="<?= base_url('Home/Nyeri_kepala'); ?>" class="btn ready-btn align-center">Read More</a></div>
-                </div>
-                <!-- Start single blog -->
-              </div>
-              <!-- End Left Blog-->
-              <!-- Start Left Blog -->
-              <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <img src="<?= base_url(); ?>/assets/home/assets/img/blog/leher.jpg" alt="">
-                  </div>
-                  <div class="blog-meta">
-
-                  </div>
-                  <div class="blog-text text-center">
-                    <h4>
-                      NYERI LEHER
-                    </h4>
-                    <p>
-                      Nyeri leher dapat disebabkan oleh berbagai faktor, seperti postur yang buruk, cedera fisik, kondisi medis, stres dan kecemasan, kurangnya gerakan, posisi tidur yang salah, dll.
-                    </p>
-                  </div>
-                  <div class="text-center"><a href="<?= base_url('Home/Nyeri_leher'); ?>" class="btn ready-btn align-center">Read More</a></div>
-                </div>
-                <!-- Start single blog -->
-              </div>
-              <!-- End Left Blog-->
-              <!-- Start Left Blog -->
-              <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <img src="<?= base_url(); ?>/assets/home/assets/img/blog/bahu.jpg" alt="">
-                  </div>
-                  <div class="blog-meta">
-
-                  </div>
-                  <div class="blog-text text-center">
-                    <h4>
-                      NYERI BAHU
-                    </h4>
-                    <p>
-                      Nyeri bahu dapat disebabkan oleh berbagai kondisi medis atau faktor lain, termasuk cedera, postur yang buruk, kondisi medis, stres, beban berlebihan pada bahu, dll.
-                    </p>
-                  </div>
-                  <div class="text-center"><a href="<?= base_url('Home/Nyeri_bahu'); ?>" class="btn ready-btn align-center">Read More</a></div>
-                </div>
-                <!-- Start single blog -->
-              </div>
-              <!-- End Left Blog-->
-            </div>
-            <br>
-            <div class="row">
-              <!-- Start Left Blog -->
-              <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <img src="<?= base_url(); ?>/assets/home/assets/img/blog/lutut.jpg" alt="">
-                  </div>
-                  <div class="blog-meta">
-
-                  </div>
-                  <div class="blog-text text-center">
-                    <h4>
-                      NYERI LUTUT
-                    </h4>
-                    <p>
-                      Nyeri lutut pada orang dewasa bisa disebabkan oleh berbagai faktor, termasuk cedera, kondisi medis, berlebihan beban pada lutut, masalah postur, faktor usia, dll.
-                    </p>
-                  </div>
-                  <div class="text-center"><a href="<?= base_url('Home/Nyeri_lutut'); ?>" class="btn ready-btn align-center">Read More</a></div>
-                </div>
-                <!-- Start single blog -->
-              </div>
-              <!-- End Left Blog-->
-              <!-- Start Left Blog -->
-              <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <img src="<?= base_url(); ?>/assets/home/assets/img/blog/pinggang.jpg" alt="">
-                  </div>
-                  <div class="blog-meta">
-
-                  </div>
-                  <div class="blog-text text-center">
-                    <h4>
-                      NYERI PINGGANG
-                    </h4>
-                    <p>
-                      Nyeri pinggang dapat disebabkan oleh berbagai faktor, seperti cedera fisik, postur yang buruk, kelebihan berat badan, kondisi medis seperti herniated disk, dll.
-
-                    </p>
-                  </div>
-                  <div class="text-center"><a href="<?= base_url('Home/Nyeri_pinggang'); ?>" class="btn ready-btn align-center">Read More</a></div>
-                </div>
-                <!-- Start single blog -->
-              </div>
-              <!-- End Left Blog-->
-              <!-- Start Left Blog -->
-              <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <img src="<?= base_url(); ?>/assets/home/assets/img/blog/saraf.jpg" alt="">
-                  </div>
-                  <div class="blog-meta">
-
-                  </div>
-                  <div class="blog-text text-center">
-                    <h4>
-                      SYARAF KEJEPIT
-                    </h4>
-                    <p>
-                      Syaraf kejepit atau kondisi medis yang dikenal dengan istilah "pinched nerve" terjadi ketika saraf terjepit atau tertekan oleh jaringan di sekitarnya.
-                    </p>
-                  </div>
-                  <div class="text-center"><a href="<?= base_url('Home/Syaraf_kejepit'); ?>" class="btn ready-btn align-center">Read More</a></div>
-                </div>
-              </div>
-              <!-- End Left Blog-->
-
-            </div><br>
-            <!-- Start Left Blog -->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <img src="<?= base_url(); ?>/assets/home/assets/img/blog/stroke1.jpeg" alt="">
-                </div>
-                <div class="blog-meta">
-
-                </div>
-                <div class="blog-text text-center">
-                  <h4>
-                    STROKE
-                  </h4>
-                  <p>
-                    Stroke adalah kondisi medis yang terjadi ketika pasokan darah ke otak terganggu atau terhenti, biasanya disebabkan oleh penyumbatan atau pecahnya pembuluh darah di otak.
-                  </p>
-                </div>
-                <div class="text-center"><a href="<?= base_url('Home/Stroke'); ?>" class="btn ready-btn align-center">Read More</a></div>
-              </div>
-            </div>
-            <!-- End Left Blog-->
-
-
+      <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+          <div class="col-md-8 col-xl-6 col-xxl-6 text-center mx-auto">
+            <h2>PENDIDIKAN</h2>
+            <p class="w-lg-50">"Belajar Al-Qur'an, bina karakter, dan hidup sejahtera bersama Pesantren Manba'ul Khair. Membentuk generasi Rabbani berakhlak Qur'ani!"</p>
           </div>
-
         </div>
-      </div><!-- End Blog Section -->
-
-      <!-- ======= Rviews Section ======= -->
-      <div class="reviews-area">
-        <div class="row g-0">
-          <div class="col-lg-6">
-            <img src="<?= base_url(); ?>/assets/home/assets/img/about/hero4.jpg" alt="" class="img-fluid">
+        <div class="row gy-4 row-cols-1 row-cols-md-2">
+          <div class="col">
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="tada" style="height: 200px" src="assets/img/frr.png" /></div>
+              <div class="py-4 py-lg-0 px-lg-4">
+                <h4>Madrasah Aliyah</h4>
+                <p>"Madrasah Aliyah, tempat yang menggabungkan ilmu pengetahuan modern dan agama. Membentuk karakter yang beriman, cerdas, dan inovatif."</p>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 work-right-text d-flex align-items-center">
-            <div class="px-5 py-5 py-lg-0">
-              <h2>Mempunyai Keluhan Dengan Kesehatan Anda</h2>
-              <h5>Jangan Ragu untu datang atau menghubungi kami!</h5>
-              <a href="https://wa.me/6281288843033?text=Hallo%20admin.%20Saya%20Ingin%20Konsultasi%20Mengenai%20keluhan%20Saya" target="_blank" class="ready-btn scrollto">Hubungi Kami</a>
+          <div class="col">
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="tada" style="height: 200px" src="assets/img/frr.png" /></div>
+              <div class="py-4 py-lg-0 px-lg-4">
+                <h4>Hafidzh Qur'an</h4>
+                <p>"Menjadi Hafidzh Quran, tiada duanya kenikmatan ketika Al-Quran menjadi penuntun hidup dan surga menjadi akhir perjalananmu."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="tada" style="height: 200px" src="assets/img/frr.png" /></div>
+              <div class="py-4 py-lg-0 px-lg-4">
+                <h4>Madrasah Tsanawiyah</h4>
+                <p>"Madrasah Tsanwiyah, menggabungkan pendidikan modern dan agama. Membangun karakter, mempersiapkan generasi muda yang cerdas dan berakhlak mulia."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="tada" style="height: 200px" src="assets/img/frr.png" /></div>
+              <div class="py-4 py-lg-0 px-lg-4">
+                <h4>Lorem libero donec</h4>
+                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div><!-- End Rviews Section -->
+      </div>
+      <script>
+        $(".handle").on("click", function() {
+          $("nav ul").toggleClass("showing");
+        });
+      </script>
+      <script src="assets/js/script.min2.js"></script>
 
       <!-- ======= Suscribe Section ======= -->
       <div class="suscribe-area">
@@ -746,6 +603,7 @@
     <!-- Vendor JS Files -->
     <script src="<?= base_url(); ?>/assets/home/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url(); ?>/assets/home/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="<?= base_url(); ?>assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?= base_url(); ?>/assets/home/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="<?= base_url(); ?>/assets/home/assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="<?= base_url(); ?>/assets/home/assets/vendor/php-email-form/validate.js"></script>
