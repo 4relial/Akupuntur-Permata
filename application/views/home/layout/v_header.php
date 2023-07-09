@@ -20,15 +20,15 @@
           </li>
           <li class="dropdown"><a href="#"><span>Sosial</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
-              <li><a href="#">Berbagi Yatim</a></li>
-              <li><a href="#">Berbagi Qur'an </a></li>
-              <li><a href="#">Penyelenggaraan Jenazah</a></li>
+              <li><a href="<?= base_url('Home/yatim'); ?>">Berbagi Yatim</a></li>
+              <li><a href="<?= base_url('Home/berbagi-quran'); ?>">Berbagi Qur`an </a></li>
+              <li><a href="<?= base_url('Home/jenazah'); ?>">Penyelenggaraan Jenazah</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Donasi</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
-              <li><a href="#">Pesantren</a></li>
-              <li><a href="#">Santri Yatim dan Miskin</a></li>
+              <li><a href="<?= base_url('Home/pesantren'); ?>">Pesantren</a></li>
+              <li><a href="<?= base_url('Home/santri_yatim_miskin'); ?>">Santri Yatim dan Miskin</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="<?= base_url('auth/booking'); ?>">Pendaftaran</a></li>

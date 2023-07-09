@@ -51,6 +51,42 @@ class Home extends CI_Controller
         );
         $this->load->view('home/layout/v_wrapper', $dataku);
     }
+    public function berbagi_quran()
+    {
+        $dataku = array(
+            'title' => 'Berbagi Qur`an',
+            'isi' => 'home/berbagi_quran'
+
+        );
+        $this->load->view('home/layout/v_wrapper', $dataku);
+    }
+    public function jenazah()
+    {
+        $dataku = array(
+            'title' => 'Penyelenggara Jenazah',
+            'isi' => 'home/jenazah'
+
+        );
+        $this->load->view('home/layout/v_wrapper', $dataku);
+    }
+    public function pesantren()
+    {
+        $dataku = array(
+            'title' => 'Pesantren',
+            'isi' => 'home/pesantren'
+
+        );
+        $this->load->view('home/layout/v_wrapper', $dataku);
+    }
+    public function santri_yatim_miskin()
+    {
+        $dataku = array(
+            'title' => 'Santri Yatim Dan Miskin',
+            'isi' => 'home/santri_yatim_miskin'
+
+        );
+        $this->load->view('home/layout/v_wrapper', $dataku);
+    }
 
     public function about()
     {
