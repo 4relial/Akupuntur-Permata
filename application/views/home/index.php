@@ -29,9 +29,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" />
   <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/font-awesome.min.css" />
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min.css" />
+<<<<<<< HEAD
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min2.css" />
   <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/simple-line-icons.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+=======
+>>>>>>> 7aee980f2ca99d6a6dfbea003f3c791ee8a35621
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>/assets/home/assets/css/style.css" rel="stylesheet">
@@ -39,7 +42,7 @@
 </head>
 
 <body>
-  <div class="d-none d-sm-block bg-image" style="height: 300px;background: url(&quot;<?= base_url(); ?>assets/img/frr.png&quot;) center / cover no-repeat;">
+  <div class="d-none d-sm-block bg-image" style="height: 350px;background: url(&quot;<?= base_url(); ?>assets/img/frr.png&quot;) center / cover no-repeat;">
     <div class="d-flex justify-content-center align-items-center" style="height: inherit;min-height: initial;width: 100%;position: absolute;left: 0;background: rgba(30,41,99,0);">
     </div>
   </div>
