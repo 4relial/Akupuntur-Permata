@@ -7,12 +7,51 @@ class Home extends CI_Controller
     public function index()
     {
         $dataku = array(
-            'title' => 'Landing Page',
+            'title' => "Manba'ul Khair",
             'isi' => 'home/index'
 
         );
-        $this->load->view('home/index', $dataku);
+        $this->load->view('home/layout/v_wrapper', $dataku);
     }
+
+    public function mts()
+    {
+        $dataku = array(
+            'title' => 'MTs',
+            'isi' => 'home/mts'
+
+        );
+        $this->load->view('home/layout/v_wrapper', $dataku);
+    }
+    public function ma()
+    {
+        $dataku = array(
+            'title' => 'MTs',
+            'isi' => 'home/ma'
+
+        );
+        $this->load->view('home/layout/v_wrapper', $dataku);
+    }
+    public function tahfidzh()
+    {
+        $dataku = array(
+            'title' => 'Tahfidzh',
+            'isi' => 'home/tahfidzh'
+
+        );
+        $this->load->view('home/layout/v_wrapper', $dataku);
+    }
+
+    public function yatim()
+    {
+        $dataku = array(
+            'title' => 'Berbagi Yatim',
+            'isi' => 'home/yatim'
+
+        );
+        $this->load->view('home/layout/v_wrapper', $dataku);
+    }
+
     public function about()
     {
         $dataku = array(

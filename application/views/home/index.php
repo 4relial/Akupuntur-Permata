@@ -1,160 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title><?= $title ?></title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="<?= base_url(); ?>assets/home/assets/img/logo3.png" rel="icon">
-  <link href="<?= base_url(); ?>assets/home/assets/img/logo3.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="<?= base_url(); ?>/assets/home/assets/vendor/style.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/home/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/home/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/home/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/home/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/home/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/home/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- <link rel="stylesheet" href="<?= base_url(); ?>assets/bootstrap/css/bootstrap.min.css" /> -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" />
-  <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/font-awesome.min.css" />
-  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min.css" />
-  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min2.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich" />
-  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min3.css" />
-  <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/simple-line-icons.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
-  <!-- Template Main CSS File -->
-  <link href="<?= base_url(); ?>/assets/home/assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-  <div class="d-none d-sm-block bg-image" style="height: 350px;background: url(&quot;<?= base_url(); ?>assets/img/frr.png&quot;) center / cover no-repeat;">
-    <div class="d-flex justify-content-center align-items-center" style="height: inherit;min-height: initial;width: 100%;position: absolute;left: 0;background: rgba(30,41,99,0);">
-    </div>
-  </div>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-
-      <div class="logo">
-        <!-- <h1><a href="index.html"><span>Manba'ul</span>Khair</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="<?= base_url('Home'); ?>"><img src="<?= base_url(); ?>assets/home/assets/img/logo.png" alt="" class="img-fluid"></a>
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="<?= base_url('Home'); ?>">Home</a></li>
-          <li class="dropdown"><a href="#"><span>Pendidikan</span> <i class="bi bi-chevron-right"></i></a>
-            <ul>
-              <li><a href="#">MTs</a></li>
-              <li><a href="#">MA </a></li>
-              <li><a href="#">Tahfidzh</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Sosial</span> <i class="bi bi-chevron-right"></i></a>
-            <ul>
-              <li><a href="#">Berbagi Yatim</a></li>
-              <li><a href="#">Berbagi Qur'an </a></li>
-              <li><a href="#">Penyelenggaraan Jenazah</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Donasi</span> <i class="bi bi-chevron-right"></i></a>
-            <ul>
-              <li><a href="#">Pesantren</a></li>
-              <li><a href="#">Santri Yatim dan Miskin</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="<?= base_url('auth/booking'); ?>">Pendaftaran</a></li>
-          <!-- <li><a class="nav-link scrollto" href="<?= base_url('auth/register'); ?>">Daftar</a></li> -->
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- Top News Start-->
-
-  <div class="top-news">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 tn-left">
-          <div class="tn-img">
-            <img src="<?= base_url(); ?>/assets/top-news-1.jpg" />
-            <div class="tn-content">
-              <div class="tn-content-inner">
-                <a class="tn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                <a class="tn-title" href="">Lorem ipsum dolor sit amet adipiscing elit</a>
+  <!-- Hero -->
+  <section>
+    <div style="height: 500px;background: url(&quot;<?= base_url(); ?>assets/img/bggg.jpg&quot;) center / cover;"></div>
+    <div class="container h-100 position-relative" style="top: -50px;">
+      <div class="row gy-5 gy-lg-0 row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col">
+          <div class="card" style="background: rgba(255,255,255,0);">
+            <div class="card-body pt-5 p-4" style="padding-top: 0px;margin-top: -38px;">
+              <div>
+                <div class="ritt-container"><img src="https://www.w3schools.com/w3images/notebook.jpg" style="width:100%">
+                  <div class="ritt-content">
+                    <h2>PPDB</h2>
+                    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum&nbsp;</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <div class="card-footer p-4 py-3"><a href="#">Selengkapnya&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                </svg></a></div>
           </div>
         </div>
-        <div class="col-md-6 tn-right">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="tn-img">
-                <img src="<?= base_url(); ?>/assets/top-news-2.jpg" />
-                <div class="tn-content">
-                  <div class="tn-content-inner">
-                    <a class="tn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                    <a class="tn-title" href="">Integer faucibus pharetra odio</a>
+        <div class="col">
+          <div class="card" style="background: rgba(255,255,255,0);">
+            <div class="card-body pt-5 p-4" style="margin-top: -38px;">
+              <div>
+                <div class="ritt-container"><img src="https://www.w3schools.com/w3images/notebook.jpg" style="width:100%">
+                  <div class="ritt-content">
+                    <h2>Materi Khutbah</h2>
+                    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum&nbsp;</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="tn-img">
-                <img src="<?= base_url(); ?>/assets/top-news-3.jpg" />
-                <div class="tn-content">
-                  <div class="tn-content-inner">
-                    <a class="tn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                    <a class="tn-title" href="">Nulla vitae pharetra ligula</a>
+            <div class="card-footer p-4 py-3"><a href="#">Selengkapnya&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                </svg></a></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background: rgba(255,255,255,0);">
+            <div class="card-body pt-5 p-4" style="margin-top: -38px;">
+              <div>
+                <div class="ritt-container"><img src="https://www.w3schools.com/w3images/notebook.jpg" style="width:100%">
+                  <div class="ritt-content">
+                    <h2>Keutamaan Puasa</h2>
+                    <p>&nbsp;neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="tn-img">
-                <img src="<?= base_url(); ?>/assets/top-news-4.jpg" />
-                <div class="tn-content">
-                  <div class="tn-content-inner">
-                    <a class="tn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                    <a class="tn-title" href="">Ut ac euismod tellus a blandit</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="tn-img">
-                <img src="<?= base_url(); ?>/assets/top-news-5.jpg" />
-                <div class="tn-content">
-                  <div class="tn-content-inner">
-                    <a class="tn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                    <a class="tn-title" href="">Cras ac egestas sem nec euismod</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="card-footer p-4 py-3"><a href="#">Selengkapnya<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                </svg></a></div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Top News End-->
+  </section>
+  <!-- End Hero -->
 
   <!-- post dan berita -->
   <div id="main-content" class="blog-page">
@@ -177,36 +81,35 @@
             <div class="body">
               <ul class="comment-reply list-unstyled">
                 <li class="row clearfix">
-                  <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Awesome Image"></div>
+                  <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="<?= base_url(); ?>assets/img/fb/4.jpg" alt="Awesome Image"></div>
                   <div class="text-box col-md-10 col-8 p-l-0 p-r0">
-                    <h5 class="m-b-0">Gigi Hadid </h5>
+                    <ul class="list-inline">
+                      <li><a href="#">24 Juni 2023</a></li>
+                    </ul>
+                    <h5 class="m-b-0">Penerimaan Santri Baru </h5>
                     <p>Why are there so many tutorials on how to decouple WordPress? how fast and easy it is to get it running (and keep it running!) and its massive ecosystem. </p>
-                    <ul class="list-inline">
-                      <li><a href="javascript:void(0);">Mar 09 2018</a></li>
-                      <li><a href="javascript:void(0);">Reply</a></li>
-                    </ul>
                   </div>
                 </li>
+                <hr>
                 <li class="row clearfix">
-                  <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Awesome Image"></div>
+                  <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="<?= base_url(); ?>assets/img/fb/5.jpg" alt="Awesome Image"></div>
                   <div class="text-box col-md-10 col-8 p-l-0 p-r0">
-                    <h5 class="m-b-0">Christian Louboutin</h5>
+                  <ul class="list-inline">
+                      <li><a href="javascript:void(0);">24 Juni 2023</a></li>
+                    </ul>
+                    <h5 class="m-b-0">Info Pendaftaran Santri Baru PPDB</h5>
                     <p>Great tutorial but few issues with it? If i try open post i get following errors. Please can you help me?</p>
-                    <ul class="list-inline">
-                      <li><a href="javascript:void(0);">Mar 12 2018</a></li>
-                      <li><a href="javascript:void(0);">Reply</a></li>
-                    </ul>
                   </div>
                 </li>
+                <hr>
                 <li class="row clearfix">
-                  <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="Awesome Image"></div>
+                  <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="<?= base_url(); ?>assets/img/fb/6.jpg" alt="Awesome Image"></div>
                   <div class="text-box col-md-10 col-8 p-l-0 p-r0">
-                    <h5 class="m-b-0">Kendall Jenner</h5>
-                    <p>Very nice and informative article. In all the years I've done small and side-projects as a freelancer, I've ran into a few problems here and there.</p>
-                    <ul class="list-inline">
-                      <li><a href="javascript:void(0);">Mar 20 2018</a></li>
-                      <li><a href="javascript:void(0);">Reply</a></li>
+                  <ul class="list-inline">
+                      <li><a href="javascript:void(0);">24 Juni 2023</a></li>
                     </ul>
+                    <h5 class="m-b-0">Brosur PPDB TA 2022/2023</h5>
+                    <p>Very nice and informative article. In all the years I've done small and side-projects as a freelancer, I've ran into a few problems here and there.</p>
                   </div>
                 </li>
               </ul>
@@ -384,122 +287,5 @@
         </div>
       </div><!-- End Testimonials Section -->
 
-      <div class="text-center border-dark col m-auto"><span class="text-center m-auto py-4" id="fb"></span></div>
-      <div id="fixed-social">
-        <div>
-          <a class="fixed-facebook" href="#" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp;Facebook</span></a>
-        </div>
-        <div>
-          <a class="fixed-instagram" href="#" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;Instagram</span></a>
-        </div>
-        <div>
-          <a class="fixed-twitter" href="#" target="_blank"><i class="fa fa-twitter"></i><span>&nbsp;Twitter</span></a>
-        </div>
-        <div>
-          <a class="fixed-linkedin" href="#" target="_blank"><i class="fa fa-linkedin"></i><span>&nbsp;Linkedin</span></a>
-        </div>
-        <div>
-          <a class="fixed-youtube" href="#" target="_blank"><i class="fa fa-youtube-play"></i><span>&nbsp;Youtube</span></a>
-        </div>
-      </div>
-
-    </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer>
-      <div class="footer-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <div class="footer-logo">
-                    <a href="<?= base_url('Home'); ?>"><img src="<?= base_url(); ?>assets/home/assets/img/logo.png" alt="" class="img-fluid"></a>
-                  </div>
-
-                  <p>Kesehatan yang Bermutu dengan Nama Perusahaan. Tidak Ada Kompromi.</p>
-                  <!-- <div class="footer-icons">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                  </ul>
-                </div> -->
-                </div>
-              </div>
-            </div>
-            <!-- end single footer -->
-            <div class="col-md-4">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <h4>information</h4>
-                  <p>
-                    Untuk Informasi lebih Lanjut. Silahkan Hubungi Kami pada contact di bawah!!
-                  </p>
-                  <div class="footer-contacts">
-                    <p><span>Tel:</span> +62 812-XXXX-XXXX</a></p>
-                    <p><span>Email:</span> customer.service@gmail.com</a></p>
-                    <p><span>Jam Kerja:</span> Setiap Hari 08:00-21:00 WIB</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end single footer -->
-            <div class="col-md-4">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <h4>Map</h4>
-                  <div class="footer-contacts text-center">
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3801079258897!2d106.7787701204349!3d-6.213497785806541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7942b54a85d%3A0x950e8ada7f1416a1!2sGriya!5e0!3m2!1sid!2sid!4v1680499486149!5m2!1sid!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-area-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="copyright text-center">
-                <p>
-                  <?= date('Y'); ?> &copy; Copyright <strong>Nama Perusahaan</strong>. All Rights Reserved
-                </p>
-              </div>
-              <div class="credits">
-                Web Developer <a href="https://duduweb.id/">Duduweb.id</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer><!-- End  Footer -->
-
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-    <a href="https://wa.me/6281288843033?text=Hallo%20admin.%20Saya%20Ingin%20Konsultasi%20Mengenai%20keluhan%20Saya" class="wa-floating d-flex align-items-center justify-content-center" target="_blank"><i class="bi bi-whatsapp"></i></a>
-    <!-- Vendor JS Files -->
-    <script src="<?= base_url(); ?>/assets/home/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url(); ?>/assets/home/assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="<?= base_url(); ?>assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="<?= base_url(); ?>/assets/home/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="<?= base_url(); ?>/assets/home/assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="<?= base_url(); ?>/assets/home/assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="<?= base_url(); ?>/assets/home/assets/js/main.js"></script>
-
-</body>
-
-</html>
+    </main>
+    <!-- End #main -->
