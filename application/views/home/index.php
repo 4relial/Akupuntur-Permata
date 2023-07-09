@@ -50,7 +50,7 @@
     <div class="container d-flex justify-content-between">
 
       <div class="logo">
-        <!-- <h1><a href="index.html"><span>Logo</span>Perusahaan</a></h1> -->
+        <!-- <h1><a href="index.html"><span>Manba'ul</span>Khair</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
         <a href="<?= base_url('Home'); ?>"><img src="<?= base_url(); ?>assets/home/assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
@@ -60,22 +60,22 @@
           <li><a class="nav-link scrollto active" href="<?= base_url('Home'); ?>">Home</a></li>
           <li class="dropdown"><a href="#"><span>Pendidikan</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
-              <li><a href="<?= base_url('Home/Nyeri_kepala'); ?>">MTs</a></li>
-              <li><a href="<?= base_url('Home/Nyeri_leher'); ?>">MA </a></li>
-              <li><a href="<?= base_url('Home/Nyeri_bahu'); ?>">Tahfidzh</a></li>
+              <li><a href="#">MTs</a></li>
+              <li><a href="#">MA </a></li>
+              <li><a href="#">Tahfidzh</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Sosial</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
-              <li><a href="<?= base_url('Home/Nyeri_kepala'); ?>">Berbagi Yatim</a></li>
-              <li><a href="<?= base_url('Home/Nyeri_leher'); ?>">Berbagi Qur'an </a></li>
-              <li><a href="<?= base_url('Home/Nyeri_bahu'); ?>">Penyelenggaraan Jenazah</a></li>
+              <li><a href="#">Berbagi Yatim</a></li>
+              <li><a href="#">Berbagi Qur'an </a></li>
+              <li><a href="#">Penyelenggaraan Jenazah</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Donasi</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
-              <li><a href="<?= base_url('Home/Nyeri_kepala'); ?>">Pesantren</a></li>
-              <li><a href="<?= base_url('Home/Nyeri_leher'); ?>">Santri Yatim dan Miskin</a></li>
+              <li><a href="#">Pesantren</a></li>
+              <li><a href="#">Santri Yatim dan Miskin</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="<?= base_url('auth/booking'); ?>">Pendaftaran</a></li>
@@ -156,6 +156,7 @@
   </div>
   <!-- Top News End-->
 
+  <!-- post dan berita -->
   <div id="main-content" class="blog-page">
     <div class="container">
       <div class="row clearfix">
@@ -163,15 +164,15 @@
           <div class="card single_post">
             <div class="body">
               <div class="img-post">
-                <img class="d-block img-fluid" src="https://via.placeholder.com/800x280/87CEFA/000000" alt="First slide">
+                <img class="d-block img-fluid" src="<?= base_url(); ?>assets/img/w.jpg" alt="First slide">
               </div>
-              <h3><a href="blog-details.html">All photographs are accurate</a></h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <h3><a href="blog-details.html">Yayasan Manba'ul Khair Tobadak</a></h3>
+              <p>Yayasan Mabaul Khair, perwujudan nyata petisipasi dan kepedulian terhadap sesama. Membangun jembatan cinta dan kebaikan, mencetak tinta kecerdasan di setiap lembaran pendidikan. Dengan kegiatan dan program-program yang berorientasi pada peningkatan kualitas hidup dan pendidikan, kami percaya setiap individu bisa meraih masa depan yang lebih cerah. Bergabunglah menjadi bagian dari Mabaul Khair, karena kebaikan dimulai dari diri kita dan cinta harus kita bagikan.</p>
             </div>
           </div>
           <div class="card">
             <div class="header">
-              <h2>Comments 3</h2>
+              <h2>Berita Terbaru</h2>
             </div>
             <div class="body">
               <ul class="comment-reply list-unstyled">
@@ -211,33 +212,6 @@
               </ul>
             </div>
           </div>
-          <div class="card">
-            <div class="header">
-              <h2>Leave a reply <small>Your email address will not be published. Required fields are marked*</small></h2>
-            </div>
-            <div class="body">
-              <div class="comment-form">
-                <form class="row clearfix">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email Address">
-                    </div>
-                  </div>
-                  <div class="col-sm-12">
-                    <div class="form-group">
-                      <textarea rows="4" class="form-control no-resize" placeholder="Please type what you want..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-block btn-primary">SUBMIT</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="col-lg-4 col-md-12 right-box">
           <div class="card">
@@ -252,51 +226,20 @@
           </div>
           <div class="card">
             <div class="header">
-              <h2>Categories Clouds</h2>
+              <h2>Kategori</h2>
             </div>
             <div class="body widget">
               <ul class="list-unstyled categories-clouds m-b-0">
-                <li><a href="javascript:void(0);">eCommerce</a></li>
-                <li><a href="javascript:void(0);">Microsoft Technologies</a></li>
-                <li><a href="javascript:void(0);">Creative UX</a></li>
-                <li><a href="javascript:void(0);">Wordpress</a></li>
-                <li><a href="javascript:void(0);">Angular JS</a></li>
-                <li><a href="javascript:void(0);">Enterprise Mobility</a></li>
-                <li><a href="javascript:void(0);">Website Design</a></li>
-                <li><a href="javascript:void(0);">HTML5</a></li>
-                <li><a href="javascript:void(0);">Infographics</a></li>
-                <li><a href="javascript:void(0);">Wordpress Development</a></li>
+                <li><a href="javascript:void(0);">Hafidzh</a></li>
+                <li><a href="javascript:void(0);">Informasi</a></li>
+                <li><a href="javascript:void(0);">Kegiatan Siswa</a></li>
               </ul>
             </div>
           </div>
+
           <div class="card">
             <div class="header">
-              <h2>Popular Posts</h2>
-            </div>
-            <div class="body widget popular-post">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="single_post">
-                    <p class="m-b-0">Apple Introduces Search Ads Basic</p>
-                    <span>jun 22, 2018</span>
-                    <div class="img-post">
-                      <img src="https://via.placeholder.com/280x280/87CEFA/000000" alt="Awesome Image">
-                    </div>
-                  </div>
-                  <div class="single_post">
-                    <p class="m-b-0">new rules, more cars, more races</p>
-                    <span>jun 8, 2018</span>
-                    <div class="img-post">
-                      <img src="https://via.placeholder.com/280x280/87CEFA/000000" alt="Awesome Image">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="header">
-              <h2>Instagram Post</h2>
+              <h2>Gallery</h2>
             </div>
             <div class="body widget">
               <ul class="list-unstyled instagram-plugin m-b-0">
@@ -314,7 +257,7 @@
           </div>
           <div class="card">
             <div class="header">
-              <h2>Email Newsletter <small>Get our products/news earlier than others, let’s get in touch.</small></h2>
+              <h2>Hubungi <small>Kami Melalui E-Mail</small></h2>
             </div>
             <div class="body widget newsletter">
               <div class="input-group">
@@ -327,53 +270,12 @@
           </div>
         </div>
       </div>
-
     </div>
+    <!-- penutup post dan berita -->
 
     <main id="main">
-
-      <!-- ======= About Section ======= -->
-      <div id="about" class="about-area area-padding">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="section-headline text-center">
-                <br>
-                <h2>TENTANG KAMI</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <!-- single-well start-->
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <div class="well-left">
-                <div class="single-well">
-                  <img src="<?= base_url(); ?>/assets/home/assets/img/about/hero1.jpg" alt="">
-                </div>
-              </div>
-            </div>
-            <!-- single-well end-->
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <div class="well-middle">
-                <div class="single-well ">
-                  <h4 class="sec-head">PROFILE</h4>
-                  <p>
-                    Kesehatan tubuh merupakan hal yang sangat penting dan tidak dapat dipandang sebelah mata. Masalah nyeri otot, tulang, dan sendi bisa sangat mengganggu keseharian Anda, dan bisa mempengaruhi produktivitas dan kualitas hidup Anda. Jika Anda mengalami masalah tersebut, maka kami memiliki solusi yang tepat untuk Anda.
-                  </p>
-                  <p>
-                    Nama Perusahaan adalah layanan kesehatan akupuntur yang mengkhususkan diri pada pengobatan nyeri otot, tulang, dan sendi. Kami memiliki tim ahli terapis akupuntur yang berpengalaman dan kompeten dalam memberikan pengobatan yang efektif untuk mengatasi masalah kesehatan Anda.
-                  </p>
-                  <div class=""><a href="<?= base_url('Home/about'); ?>" class="btn-about">Read More</a></div>
-                </div>
-
-              </div>
-            </div>
-            <!-- End col-->
-          </div>
-        </div>
-      </div><!-- End About Section -->
-
-
+      <hr>
+      <!-- Penjelasan Singkat -->
       <div class="container py-4 py-xl-5">
         <div class="row mb-5">
           <div class="col-md-8 col-xl-6 col-xxl-6 text-center mx-auto">
@@ -426,21 +328,7 @@
         });
       </script>
       <script src="assets/js/script.min2.js"></script>
-
-      <!-- ======= Suscribe Section ======= -->
-      <div class="suscribe-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
-              <div class="suscribe-text text-center">
-                <h3>Konsultasikan tentang kesehatan anda pada kami</h3>
-                <a class="sus-btn" href="https://wa.me/6281288843033?text=Hallo%20admin.%20Saya%20Ingin%20Konsultasi%20Mengenai%20keluhan%20Saya" target="_blank">Free Konsultasi</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div><!-- End Suscribe Section -->
+      <!-- Akhir penjelasan -->
 
 
       <!-- ======= Testimonials Section ======= -->
