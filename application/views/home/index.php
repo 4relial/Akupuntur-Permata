@@ -28,7 +28,7 @@
   <!-- <link rel="stylesheet" href="<?= base_url(); ?>assets/bootstrap/css/bootstrap.min.css" /> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" />
   <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/font-awesome.min.css" />
-  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min.css" /> 
+  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/styles.min.css" />
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>/assets/home/assets/css/style.css" rel="stylesheet">
@@ -36,7 +36,7 @@
 </head>
 
 <body>
-  <div class="d-none d-sm-block bg-image" style="height: 300px;background: url(&quot;<?= base_url(); ?>assets/img/frr.png&quot;) center / cover no-repeat;">
+  <div class="d-none d-sm-block bg-image" style="height: 350px;background: url(&quot;<?= base_url(); ?>assets/img/frr.png&quot;) center / cover no-repeat;">
     <div class="d-flex justify-content-center align-items-center" style="height: inherit;min-height: initial;width: 100%;position: absolute;left: 0;background: rgba(30,41,99,0);">
     </div>
   </div>
